@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+
+/*login*/
+
+.helpPotatoesTittle {
+    text-align: center;
+}
+
+.helpPotatoesTittle h1 {
+    margin-bottom: 5px;
+}
+
+.rootClass {
+    width: 100%;
+    height: 90%;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.subLoginContainer {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginTittle {
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 23px 0;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer input {
+    margin-bottom: 29px;
+    height: 40px;
+    background-color: rgba(204, 233, 251, 1);
+    border: none;
+    border-radius: 9px;
+    padding-left: 10px;
+}
+
+
+/*para login y register*/
+
+.buttonnextPage {
+    font-family: 'Poppins';
+    font-size: 16px;
+    height: 33px;
+    background: #8CD1EF;
+    border: none;
+    border-radius: 9px;
+    margin-top: 3px;
+}
+
+
+/*log y register*/
+
+.pGoogle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 5px;
+}
+
+
+/*log y register*/
+
+.withGoogle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*log y register*/
+
+.logoGoogle {
+    margin-top: 17px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* log y register*/
+
+.backpage {
+    background-color: transparent;
+    border: none;
+    color: rgba(48, 185, 244, 1);
+    font-size: 16px;
+    font-weight: 720;
+    margin-top: 19px;
+}
+
+
+/*register*/
+
+.registerContainerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.subRegisterContainerMain {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.papasImg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.papasImg img {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    padding: 14px 14px;
+    background-color: rgb(206, 202, 190);
+}
+
+.papasImg img:hover {
+    border: 2px solid rgba(48, 185, 244, 1);
+}
+
+.borderM {
+    border: 2px solid rgba(48, 185, 244, 1);
+}
+
+.registerTittle {
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pIconRegister {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.inputContainerRegister {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonRegister {
+    margin-top: 15px;
+}
+
+.inputContainerRegister input {
+    height: 35px;
+    background-color: rgba(204, 233, 251, 1);
+    border: none;
+    border-radius: 9px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+
+/*modal*/
+
+
+/*fondo*/
+
+.verificationEmailModal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.divContainerModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/*modal container*/
+
+.containerModal {
+    background-color: rgba(204, 233, 251, 1);
+    color: #050000;
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border-radius: 9px;
+}
+
+.okaybtnModal {
+    padding: 8px;
+    background-color: rgb(14, 54, 71);
+    border: none;
+    border-radius: 9px;
+    color: rgb(240, 244, 246);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.error {
+    font-size: 0.7em;
+    color: darkgrey;
+}
+
+
+/*homepage*/
+
+.homePageContainer {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.createPostContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.subCreatePostContainer {
+    display: flex;
+    background: hsl(206deg 72% 89%);
+    margin: 0px 10px;
+    border-radius: 15px;
+}
+
+
+/*diseño de circulo en la img */
+
+.containerPhotoProfile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    margin: 10px 10px 0px 20px;
+}
+
+
+/*foto de usuario con login*/
+
+.userPhotoURLProfile {
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 0px 10px;
+}
+
+
+/*foto de usuario de login with google*/
+
+.iconUserDefault {
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 0px 10px;
+}
+
+
+/*userName*/
+
+.userNameProfile {
+    margin-left: 20px;
+}
+
+
+/*input para comentar a publicar*/
+
+.postInput {
+    background: #fafafa;
+    border-radius: 6px;
+    border: none;
+    margin: 15px 6px;
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+
+/*boton publicar*/
+
+.btnShare {
+    background: #9de1ff;
+    border-radius: 6px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    border: none;
+    width: 30%;
+    height: 23px;
+}
+
+
+/*icono de cerrar*/
+
+.logOutIcon {
+    width: 20px;
+}
+
+
+/*container de todos los post*/
+
+.publicPost {
+    margin: 20px auto;
+    width: 96%;
+}
+
+.userNamePublic {
+    font-size: 15px;
+    margin: 0px 10px;
+    font-weight: 500;
+}
+
+.containerSeePost {
+    width: auto;
+    margin: 20px;
+    background: hsl(206deg 72% 89%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.divUserPhoto {
+    display: flex;
+}
+
+.divUserName {
+    margin-right: 0px;
+}
+
+.userPhotoPublic {
+    width: 30px;
+    height: 30px;
+}
+
+.relleno {
+    font-size: 12px;
+    margin: 0px 0px 10px 10px;
+}
+
+.comentPost {
+    background: #fafafa;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+@media screen and (min-width:760px) {
+    body {
+        background: rgb(249, 255, 255);
+    }
+    .rootClass {
+        width: 100%;
+    }
+    .subLoginContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "img login";
+        width: 100%;
+    }
+    .helpPotatoesTittle {
+        grid-area: img;
+        height: 100%;
+        padding-top: 20px;
+        font-size: 40px;
+        background-image: url(./img/imgPrincipal.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 77%;
+    }
+    .helpPotatoesTittleRegister {
+        height: 100%;
+        padding-top: 20px;
+        font-size: 46px;
+        background-image: url(./img/imgPrincipal.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 77%;
+    }
+    .loginSubContainer {
+        grid-area: login;
+        height: 100%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 0 0 20px;
+        background: white;
+        border-radius: 1px;
+        border: none;
+    }
+    .buttonnextPage {
+        margin-top: 0px;
+    }
+    .inputContainer {
+        width: 80%;
+    }
+    .inputContainer input {
+        height: 40px;
+    }
+    .backpage {
+        margin: 17px 0 14px 0;
+    }
+    .loginTittle {
+        margin-top: 0px;
+        margin-bottom: 26px;
+    }
+    .subRegisterContainerMain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "imgReg Register";
+        width: 100%;
+    }
+    .titleGrid {
+        grid-area: imgReg;
+        text-align: center;
+    }
+    .containerRegisterGrid {
+        grid-area: Register;
+        width: 75%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background: white;
+        border-radius: 1px;
+        padding: 16px 15px;
+    }
+    .registerTittle {
+        margin-top: 8px;
+        margin-bottom: 14px;
+    }
+    .papasImg {
+        width: 80%;
+    }
+    .inputContainerRegister {
+        width: 80%;
+    }
+    .inputContainerRegister input {
+        height: 40px;
+    }
+    .inputContainerRegister .buttonnextPage {
+        margin-top: 15px;
+    }
+    .createPostContainer {
+        display: grid;
+        grid-template-columns: 35% 65%;
+        height: 100vh;
+        grid-template-rows: 100%
+    }
+    .subCreatePostContainer {
+        padding: 5px;
+        height: 140px;
+        width: 100%;
+    }
+    .postContainer {
+        width: 75%;
+    }
+    .postInput {
+        width: 100%;
+    }
+    .containerSeePost {
+        margin: 0 20px 20px 20px;
+    }
+    .publicPost {
+        margin: 0px auto;
+    }
+}
